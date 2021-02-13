@@ -1,4 +1,6 @@
-package com.rafa.aula.ExerciciosRecurssivos;
+package com.rafa.aula.ExerciciosRecurssivos.Exer04;
+
+import com.rafa.aula.ExerciciosRecurssivos.Exer04.Somatorio;
 
 public class TestSomatorio {
     public static void main(String[] args) {

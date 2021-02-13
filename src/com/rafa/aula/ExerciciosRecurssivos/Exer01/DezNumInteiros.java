@@ -1,4 +1,4 @@
-package com.rafa.aula.ExerciciosRecurssivos;
+package com.rafa.aula.ExerciciosRecurssivos.Exer01;
 
 public class DezNumInteiros {
 
@@ -16,6 +16,7 @@ public class DezNumInteiros {
         this.num = num;
     }
 
+    //Forma iterativa
     public void MostrarValor() {
         for (int i = 1; i <= 10; i++) {
             num = i;
@@ -23,19 +24,12 @@ public class DezNumInteiros {
         }
     }
 
+    //Forma recurssiva
     public int MostrarValorRecurssivo(int num){
         if (num == 10){
             return 10;
         }
         System.out.println(num);
         return MostrarValorRecurssivo(num+1);
-    }
-
-    public int MostrarValorRecurssivoDecrescente(int num){
-        if (num == 1){
-            return 1;
-        }
-        System.out.println(num);
-        return MostrarValorRecurssivoDecrescente(num-1);
     }
 }

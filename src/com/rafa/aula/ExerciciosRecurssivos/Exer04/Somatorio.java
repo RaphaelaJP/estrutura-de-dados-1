@@ -1,4 +1,4 @@
-package com.rafa.aula.ExerciciosRecurssivos;
+package com.rafa.aula.ExerciciosRecurssivos.Exer04;
 
 public class Somatorio {
     private int numero;

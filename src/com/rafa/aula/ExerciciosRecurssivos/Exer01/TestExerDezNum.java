@@ -1,4 +1,4 @@
-package com.rafa.aula.ExerciciosRecurssivos;
+package com.rafa.aula.ExerciciosRecurssivos.Exer01;
 
 public class TestExerDezNum {
     public static void main(String[] args) {
@@ -9,6 +9,6 @@ public class TestExerDezNum {
 
         System.out.println( " ----- /// --------");
         numero.setNum(10);
-        System.out.println(numero.MostrarValorRecurssivoDecrescente(numero.getNum()));
+        //System.out.println(numero.MostrarValorRecurssivoDecrescente(numero.getNum()));
     }
 }
